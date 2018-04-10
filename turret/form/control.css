@@ -160,3 +160,12 @@
   color: var(--control-label-color);
   @apply --transition;
 }
+
+.control-reversed > .control-label {
+  order: -1;
+  margin: 0;
+}
+
+.control-reversed > .control-indicator {
+  margin: var(--control-label-margin);
+}
